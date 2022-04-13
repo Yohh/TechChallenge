@@ -1,2 +1,2 @@
 # TechChallenge
-TechChallenge for the Wild Wode School
+TechChallenge for the Wild Code School
