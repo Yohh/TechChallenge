@@ -1,0 +1,314 @@
+/* GENERAL */
+
+body {
+  background-color: #526d67;
+  font-family: "Cinzel Decorative", cursive;
+}
+
+::selection {
+  color: #81928f;
+  background: #117764;
+}
+
+::-moz-selection {
+  color: #81928f;
+  background: #117764;
+}
+
+a:link {
+  color: #003b30;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #282e2d;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #216e5f;
+  text-decoration: none;
+}
+
+a:focus {
+  color: #216e5f;
+  text-decoration: none;
+}
+
+/* NAVBAR */
+
+#navbar {
+  height: 220px;
+  background-color: #282e2d;
+  border-radius: 5px;
+}
+
+#components0,
+#components1 {
+  display: inline;
+  text-align: right;
+}
+
+#nav0,
+#nav1,
+#nav2,
+#nav3 {
+  display: inline;
+  margin-right: 3%;
+  line-height: 220px;
+  vertical-align: middle;
+  font-size: 25px;
+  background-color: #81928f;
+  border: solid 10px #81928f;
+  border-radius: 10px;
+}
+
+#logo {
+  float: left;
+  margin-left: 2%;
+  margin-top: 10px;
+}
+
+/* HERO SECTION */
+
+#heroSection {
+  margin-top: 30px;
+  line-height: 500px;
+  background-image: url(assets/landscape.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#heroTitle {
+  vertical-align: center;
+  text-align: center;
+  color: #282e2d;
+  font-size: 25px;
+}
+
+/* ABOUT SECTION */
+
+#about {
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#aboutTitle {
+  color: #81928f;
+  display: inline-block;
+  font-size: 20px;
+  background-color: #282e2d;
+  border: solid 10px #282e2d;
+  border-radius: 10px;
+  margin-left: 50px;
+}
+
+#about {
+  text-align: justify;
+}
+
+#aboutText0,
+#aboutText1,
+#aboutText2,
+#aboutText3,
+#aboutText4,
+#aboutText5,
+#aboutText6,
+#aboutText7 {
+  margin-left: 100px;
+  color: #282e2d;
+  text-indent: 20px;
+}
+
+#ram {
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+/* ROYAL FAMILY SECTION */
+
+#royalFamilyTitle {
+  margin-top: 30px;
+  color: #81928f;
+  display: inline-block;
+  font-size: 30px;
+  background-color: #282e2d;
+  border: solid 10px #282e2d;
+  border-radius: 10px;
+  margin-left: 50px;
+}
+
+.flex-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#royalFamily {
+  color: #282e2d;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+#name0,
+#name1,
+#name2 {
+  text-align: center;
+}
+
+#figure0,
+#figure1,
+#figure2,
+#figure3,
+#figure4,
+#figure5,
+#figure6,
+#figure7,
+#figure8 {
+  text-align: justify;
+  text-indent: 20px;
+  width: 330px;
+  font-size: 20px;
+}
+
+/* ASSETS SECTION */
+
+#assets {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#assetsTitle0,
+#assetsTitle1 {
+  color: #81928f;
+  display: inline-block;
+  font-size: 30px;
+  background-color: #282e2d;
+  border: solid 10px #282e2d;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+table {
+  background-color: #003b30;
+  color: #81928f;
+  border-radius: 10px;
+  padding: 10px;
+  width: 700px;
+  text-align: center;
+}
+
+th {
+  background-color: #282e2d;
+  font-size: 20px;
+  border: solid 2px;
+  padding: 20px;
+}
+
+td {
+  border: solid 1px;
+  padding: 10px;
+}
+
+#sandal {
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+/* CONTACT SECTION */
+
+#contact {
+  width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contactText {
+  color: #81928f;
+  display: inline-block;
+  font-size: 20px;
+  background-color: #282e2d;
+  border: solid 10px #282e2d;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+form {
+  width: 500px;
+  color: #81928f;
+  background-color: #282e2d;
+  padding: 20px;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#name,
+#adress,
+textarea {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: #282e2d;
+  border-radius: 5px;
+  width: 500px;
+  background-color: #81928f;
+  font-size: 20px;
+}
+
+input[type="submit"] {
+  color: #282e2d;
+  cursor: pointer;
+  border: #282e2d;
+  border-radius: 5px;
+  background-color: #81928f;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  height: 30px;
+  width: 100px;
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: #003b30;
+  color: #81928f;
+}
+input[type="submit"]:active {
+  background-color: #003b30;
+  color: #81928f;
+}
+
+#name,
+#adress {
+  height: 40px;
+}
+
+#message {
+  height: 220px;
+  background-image: url(assets/mail.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#hermes {
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
